@@ -15,7 +15,7 @@ class TweetSentimentPredictor():
     """
     def __init__(self):
         # reads in data 
-        self.df = pd.read_csv("C:/Users/Admin 21/Downloads/tweets.csv",
+        self.df = pd.read_csv("tweets.csv",
                     encoding='ISO-8859-1', 
                     header = None, 
                     names= ["target", "tweet_id", "date", "flag", "user", "tweet"]
